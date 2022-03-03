@@ -15,9 +15,9 @@ var newArray = [];
 var arraySize = prompt("Enter size of your Array");
 
 // contitions
-if(arraySize == 0) alert("iltimos 0 dan katta son kiritng")
-if(arraySize < 0) alert("iltimos musbat kiritng")
-if(arraySize != Math.round(arraySize)) alert("iltimos butun son kiritng")
+if(arraySize == 0) alert("0 kiritish mumkin emas")
+if(arraySize < 0) alert("Manfiy son kiritish ta'qiqlangan")
+if(arraySize != Math.round(arraySize)) alert("Array elementlari soni butun bo;lishi kerak")
 
 
 for (let i = 0; i < arraySize; i++) {
